@@ -1,0 +1,1 @@
+docker run --rm -it -v $PWD/target/graalvm-native-image:/test alpine:3.11 /test/repro-graalvm
